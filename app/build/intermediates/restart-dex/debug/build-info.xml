@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="2657405390039553"
+    token="7145182783900850978" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="2657175876809483" >
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="2657330857513461" >
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="2657357628245543"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\builds\debug\2657357628245543\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="2657373033107543"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\builds\debug\2657373033107543\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="2657405390039553" >
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>

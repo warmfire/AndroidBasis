@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/rl_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Back" />
+
+    <RelativeLayout
+        android:layout_below="@id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF0000">
+
+        <TextView
+            android:id="@+id/rl_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FF00"
+            android:text="中间"
+            android:textAllCaps="false"
+            android:padding="20dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@id/rl_center"
+            android:layout_above="@id/rl_center"
+            android:layout_height="wrap_content"
+            android:background="#00FF00"
+            android:text="左上"
+            android:textAllCaps="false"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rl_center"
+            android:layout_above="@id/rl_center"
+            android:background="#00FF00"
+            android:text="右上"
+            android:textAllCaps="false"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FF00"
+            android:text="左下"
+            android:textAllCaps="false"
+            android:padding="20dp"
+            android:layout_toLeftOf="@id/rl_center"
+            android:layout_below="@id/rl_center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FF00"
+            android:text="右下"
+            android:textAllCaps="false"
+            android:padding="20dp"
+            android:layout_toRightOf="@id/rl_center"
+            android:layout_below="@id/rl_center"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
