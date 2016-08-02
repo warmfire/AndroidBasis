@@ -21,7 +21,15 @@
         android:id="@+id/download_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="开始下载"/>
+        android:textAllCaps="false"
+        android:text="HttpUrlConnection下载"/>
+
+    <Button
+        android:id="@+id/download_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="HttpClient下载"/>
 
     <Button
         android:id="@+id/download_back"
