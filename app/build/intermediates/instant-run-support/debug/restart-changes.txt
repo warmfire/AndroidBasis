@@ -1,5 +1,0 @@
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\warmfire\asynctasktest\AnimationActivity$2.class
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\warmfire\asynctasktest\AnimationActivity.class
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\warmfire\asynctasktest\AnimationActivity$4.class
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\warmfire\asynctasktest\AnimationActivity$3.class
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\warmfire\asynctasktest\AnimationActivity$5.class

@@ -52,6 +52,7 @@ public class JsonActivity extends Activity {
         json_empty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                json_edit.setText("");
                 json_jsontxt.setText("json已清空");
             }
         });

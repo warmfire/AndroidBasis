@@ -10,7 +10,13 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button main_handler, main_servlet, main_json, main_activity, main_content_providers, main_service, main_broadcast, main_animation;
+    Button main_handler, main_servlet,
+            main_json, main_activity,
+            main_content_providers,
+            main_service, main_broadcast,
+            main_animation, main_listview,
+            main_download;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +73,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(new Intent().setClass(MainActivity.this, AnimationActivity.class), 0);
             }
         });
+        main_listview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent().setClass(MainActivity.this, ListViewActivity.class), 0);
+            }
+        });
+        main_download.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent().setClass(MainActivity.this, DownloadActivity.class), 0);
+            }
+        });
     }
 
     public void init(){
@@ -78,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
         main_service = (Button) findViewById(R.id.main_service);
         main_animation = (Button) findViewById(R.id.main_animation);
         main_broadcast = (Button) findViewById(R.id.main_broadcast);
+        main_listview = (Button) findViewById(R.id.main_listview);
+        main_download = (Button) findViewById(R.id.main_download);
     }
 
 }

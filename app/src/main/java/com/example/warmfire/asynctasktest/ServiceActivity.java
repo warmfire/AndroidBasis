@@ -5,13 +5,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 /**
  * Created by warmfire_2 on 2016/7/29.
  */
 public class ServiceActivity extends Activity {
 
-    Button service_start, service_stop, service_back;
+    Button service_start, service_back;
     Intent intent;
 
     @Override
@@ -28,12 +29,6 @@ public class ServiceActivity extends Activity {
                 startService(intent);
             }
         });
-        service_stop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                stopService(intent);
-            }
-        });
         service_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,6 +40,6 @@ public class ServiceActivity extends Activity {
     public void init() {
         service_start = (Button) findViewById(R.id.service_start);
         service_back = (Button) findViewById(R.id.service_back);
-        service_stop = (Button) findViewById(R.id.service_stop);
     }
+
 }

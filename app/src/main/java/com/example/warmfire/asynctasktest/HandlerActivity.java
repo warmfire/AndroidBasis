@@ -25,6 +25,7 @@ public class HandlerActivity extends Activity {
     Button handler_back, handler_show, handler_showurl;
     Bitmap bitmap;
     EditText handler_edit;
+    String lasturl = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,13 +98,16 @@ public class HandlerActivity extends Activity {
     public void downloadImg(){
         try {
             String urlstr = handler_edit.getText().toString();
-            if(urlstr.equals("") || urlstr == null){
-                Toast.makeText(HandlerActivity.this, "请输入url", Toast.LENGTH_SHORT).show();
-            }
-            else{
-                URL url = new URL(urlstr);
-                InputStream is = url.openStream();
-                bitmap = BitmapFactory.decodeStream(is);
+            if(!lasturl.equals(urlstr)){
+                lasturl = urlstr;
+                if(urlstr.equals("") || urlstr == null){
+                    Toast.makeText(HandlerActivity.this, "请输入url", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    URL url = new URL(urlstr);
+                    InputStream is = url.openStream();
+                    bitmap = BitmapFactory.decodeStream(is);
+                }
             }
         }
         catch(Exception e){
@@ -114,6 +118,7 @@ public class HandlerActivity extends Activity {
     Runnable runnable = new Runnable(){
         @Override
         public void run() {
+            handler_img.setImageDrawable(null);
             handler_img.setBackgroundResource(R.drawable.ic_launcher);
         }
     };
@@ -122,11 +127,13 @@ public class HandlerActivity extends Activity {
         @Override
         public void run() {
             try {
+                handler_img.setBackgroundResource(0);
                 handler_img.setImageBitmap(bitmap);
             } catch (Exception e){
                 Toast.makeText(HandlerActivity.this, "Error\n" + e.toString(), Toast.LENGTH_SHORT).show();
             }
         }
     };
+
 
 }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/activity_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="LinearlayoutActivity"/>
+
+    <Button
+        android:id="@+id/activity_relativelayout"
+        android:layout_below="@id/activity_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="RelativelayoutActivity"/>
+
+    <Button
+        android:id="@+id/activity_framelayout"
+        android:layout_below="@id/activity_relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="FramelayoutActivity"/>
+
+    <Button
+        android:id="@+id/activity_absoultelayout"
+        android:layout_below="@id/activity_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="AbsoultelayoutActivity"/>
+
+    <Button
+        android:id="@+id/activity_tablelayout"
+        android:layout_below="@id/activity_absoultelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="TablelayoutActivity"/>
+
+    <Button
+        android:id="@+id/activity_back"
+        android:layout_below="@id/activity_tablelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Back"/>
+
+</RelativeLayout>
