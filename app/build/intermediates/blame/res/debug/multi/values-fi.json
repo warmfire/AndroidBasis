@@ -938,8 +938,122 @@
                     "startLine": 51,
                     "startColumn": 4,
                     "startOffset": 6811,
+                    "endColumn": 90,
+                    "endOffset": 6897
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 90,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 6902,
+                    "endColumn": 113,
+                    "endOffset": 7011
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 113,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 7016,
+                    "endColumn": 107,
+                    "endOffset": 7119
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 107,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 7124,
+                    "endColumn": 78,
+                    "endOffset": 7198
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 78,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 7203,
+                    "endColumn": 73,
+                    "endOffset": 7272
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 73,
+                        "endOffset": 516
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 7277,
+                    "endColumn": 80,
+                    "endOffset": 7353
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-fi\\values-fi.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 521,
+                        "endColumn": 80,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 7358,
                     "endColumn": 100,
-                    "endOffset": 6907
+                    "endOffset": 7454
                 },
                 "from": {
                     "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-fi\\values-fi.xml",

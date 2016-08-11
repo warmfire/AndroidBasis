@@ -105,6 +105,14 @@
             android:name="com.example.warmfire.asynctasktest.DownloadActivity"
             android:label="DownloadActivity" >
         </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.ZuheActivity"
+            android:label="ZuheActivity" >
+        </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.PullToRefreshActicity"
+            android:label="PullToRefreshActicity" >
+        </activity>
 
         <service android:name="com.example.warmfire.asynctasktest.HelloService" />
 

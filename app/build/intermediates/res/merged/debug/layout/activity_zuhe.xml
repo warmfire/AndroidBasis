@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    tools:context="com.example.warmfire.asynctasktest.ZuheActivity">
+
+    <Button
+        android:id="@+id/zuhe_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+    <com.example.warmfire.asynctasktest.ZuheLayout
+        android:id="@+id/zuhe_layout"
+        android:layout_toRightOf="@id/zuhe_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.example.warmfire.asynctasktest.ZuheLayout>
+
+    <com.example.warmfire.asynctasktest.RedBlock
+        android:id="@+id/zuhe_redblock"
+        android:layout_below="@id/zuhe_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

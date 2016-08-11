@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
             main_content_providers,
             main_service, main_broadcast,
             main_animation, main_listview,
-            main_download;
+            main_download, main_zuhe, main_pulltorefresh;
 
 
     @Override
@@ -85,6 +85,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(new Intent().setClass(MainActivity.this, DownloadActivity.class), 0);
             }
         });
+        main_zuhe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent().setClass(MainActivity.this, ZuheActivity.class), 0);
+            }
+        });
+        main_pulltorefresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent().setClass(MainActivity.this, PullToRefreshActicity.class), 0);
+            }
+        });
     }
 
     public void init(){
@@ -98,6 +110,8 @@ public class MainActivity extends AppCompatActivity {
         main_broadcast = (Button) findViewById(R.id.main_broadcast);
         main_listview = (Button) findViewById(R.id.main_listview);
         main_download = (Button) findViewById(R.id.main_download);
+        main_zuhe = (Button) findViewById(R.id.main_zuhe);
+        main_pulltorefresh = (Button) findViewById(R.id.main_pulltorefresh);
     }
 
 }

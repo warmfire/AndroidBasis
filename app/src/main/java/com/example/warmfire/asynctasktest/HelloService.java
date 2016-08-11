@@ -35,8 +35,6 @@ public class HelloService extends Service {
             Bitmap bmp= BitmapFactory.decodeResource(res, R.drawable.notification);
 
             NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-            PendingIntent pendingIntent2 = PendingIntent.getActivity(HelloService.this, 0,
-                    new Intent(HelloService.this, MainActivity.class), 0);
             // 通过Notification.Builder来创建通知，注意API Level
             // API11之后才支持
             Notification notify2 = new Notification.Builder(HelloService.this)

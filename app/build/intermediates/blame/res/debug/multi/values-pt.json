@@ -938,8 +938,65 @@
                     "startLine": 51,
                     "startColumn": 4,
                     "startOffset": 6961,
+                    "endColumn": 75,
+                    "endOffset": 7032
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 7037,
+                    "endColumn": 72,
+                    "endOffset": 7105
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 72,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 7110,
+                    "endColumn": 83,
+                    "endOffset": 7189
+                },
+                "from": {
+                    "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\AsyncTaskTest\\library\\unspecified\\res\\values-pt\\values-pt.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 83,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 7194,
                     "endColumn": 100,
-                    "endOffset": 7057
+                    "endOffset": 7290
                 },
                 "from": {
                     "file": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-pt\\values-pt.xml",

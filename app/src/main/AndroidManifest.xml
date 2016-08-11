@@ -81,6 +81,15 @@
         <activity android:name=".DownloadActivity"
             android:label="DownloadActivity">
         </activity>
+        <activity android:name=".ZuheActivity"
+            android:label="ZuheActivity">
+        </activity>
+        <activity android:name=".PullToRefreshActicity"
+            android:label="PullToRefreshActicity">
+        </activity>
+
+
+
         <service android:name=".HelloService" />
         <receiver android:name=".MyBroadCast">
             <intent-filter>

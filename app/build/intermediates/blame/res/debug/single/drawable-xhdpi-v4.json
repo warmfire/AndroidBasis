@@ -20,6 +20,10 @@
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
     },
     {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\drawable-xhdpi\\indicator_arrow.png"
     },
     {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
@@ -122,6 +130,10 @@
     {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
     },
     {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",

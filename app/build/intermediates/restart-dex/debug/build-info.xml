@@ -4,40 +4,48 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="2995104390151264"
-    token="7145182783900850978" >
+    timestamp="3780344336860720"
+    token="7145182783900850978"
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="445" />
+        duration="266" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="88" />
+        duration="27" />
     <task
         name="verifier"
-        duration="3" />
+        duration="4" />
 
     <artifact
         location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
         type="DEX" />
 
-    <build timestamp="2980536104544234" >
+    <build timestamp="3779308955469107" >
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="2983951723009726" >
+    <build
+        timestamp="3779584083749783"
+        verifier="FIELD_ADDED" >
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
     </build>
-    <build timestamp="2995104390151264" >
+    <build
+        timestamp="3780344336860720"
+        verifier="FIELD_ADDED" >
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
             type="DEX" />
