@@ -26,5 +26,7 @@ dependencies {
     compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
     compile files('libs/mysql-connector-java-5.1.26-bin.jar')
     compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.github.lecho:hellocharts-library:1.5.8@aar'
     compile project(':library')
+    compile project(':autoscroll')
 }

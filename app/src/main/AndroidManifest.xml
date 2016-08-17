@@ -30,8 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".HandlerActivity"
-            android:label="HandlerActivity"
-            android:theme="@style/AppTheme">
+            android:label="HandlerActivity">
         </activity>
         <activity android:name=".ServletActivity"
             android:label="ServletActivity">
@@ -86,6 +85,18 @@
         </activity>
         <activity android:name=".PullToRefreshActicity"
             android:label="PullToRefreshActicity">
+        </activity>
+        <activity android:name=".LunbotuActivity"
+            android:label="LunbotuActivity">
+        </activity>
+        <activity android:name=".VedioActivity"
+            android:label="VedioActivity">
+        </activity>
+        <activity android:name=".Vedio2Activity"
+            android:label="Vedio2Activity">
+        </activity>
+        <activity android:name=".ChartActivity"
+            android:label="ChartActivity">
         </activity>
 
 

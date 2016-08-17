@@ -109,6 +109,40 @@
                 android:textAllCaps="false"
                 android:text="PullToRefresh"/>
 
+            <Button
+                android:id="@+id/main_lunbotu"
+                android:layout_below="@id/main_pulltorefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="轮播图"/>
+
+            <Button
+                android:id="@+id/main_vedio"
+                android:layout_below="@id/main_lunbotu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="音视频"/>
+
+            <Button
+                android:id="@+id/main_vedio2"
+                android:layout_toRightOf="@id/main_vedio"
+                android:layout_below="@id/main_lunbotu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="视频2（错）"/>
+
+
+            <Button
+                android:id="@+id/main_chart"
+                android:layout_below="@id/main_vedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="图表"/>
+
         </RelativeLayout>
 
     </ScrollView>

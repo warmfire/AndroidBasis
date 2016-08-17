@@ -1,4 +1,2 @@
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\warmfire\asynctasktest\PullToRefreshActicity$2$override.class
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\warmfire\asynctasktest\PullToRefreshActicity$1$override.class
+CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\warmfire\asynctasktest\ChartActivity$override.class
 CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\warmfire\asynctasktest\PullToRefreshActicity$override.class

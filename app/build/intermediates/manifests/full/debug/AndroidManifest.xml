@@ -37,8 +37,7 @@
         </activity>
         <activity
             android:name="com.example.warmfire.asynctasktest.HandlerActivity"
-            android:label="HandlerActivity"
-            android:theme="@style/AppTheme" >
+            android:label="HandlerActivity" >
         </activity>
         <activity
             android:name="com.example.warmfire.asynctasktest.ServletActivity"
@@ -111,6 +110,22 @@
         <activity
             android:name="com.example.warmfire.asynctasktest.PullToRefreshActicity"
             android:label="PullToRefreshActicity" >
+        </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.LunbotuActivity"
+            android:label="LunbotuActivity" >
+        </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.VedioActivity"
+            android:label="VedioActivity" >
+        </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.Vedio2Activity"
+            android:label="Vedio2Activity" >
+        </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.ChartActivity"
+            android:label="ChartActivity" >
         </activity>
 
         <service android:name="com.example.warmfire.asynctasktest.HelloService" />
