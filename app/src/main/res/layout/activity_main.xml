@@ -143,6 +143,15 @@
                 android:textAllCaps="false"
                 android:text="图表"/>
 
+
+            <Button
+                android:id="@+id/main_glide"
+                android:layout_below="@id/main_chart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="图片处理"/>
+
         </RelativeLayout>
 
     </ScrollView>

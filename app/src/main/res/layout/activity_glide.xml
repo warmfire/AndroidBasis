@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/glide_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textAllCaps="false"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/glide_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恢复"/>
+
+        <Button
+            android:id="@+id/glide_btn2"
+            android:layout_toRightOf="@id/glide_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模糊"/>
+
+        <Button
+            android:id="@+id/glide_btn3"
+            android:layout_toRightOf="@id/glide_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆形裁剪"/>
+
+        <Button
+            android:id="@+id/glide_btn4"
+            android:layout_toRightOf="@id/glide_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不知道效果"/>
+
+        <Button
+            android:id="@+id/glide_btn5"
+            android:layout_below="@id/glide_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正方形裁剪"/>
+
+        <Button
+            android:id="@+id/glide_btn6"
+            android:layout_below="@id/glide_btn1"
+            android:layout_toRightOf="@id/glide_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆角矩形裁剪"/>
+
+        <Button
+            android:id="@+id/glide_btn7"
+            android:layout_below="@id/glide_btn1"
+            android:layout_toRightOf="@id/glide_btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜色叠加"/>
+
+        <Button
+            android:id="@+id/glide_btn8"
+            android:layout_below="@id/glide_btn1"
+            android:layout_toRightOf="@id/glide_btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去色"/>
+
+        <Button
+            android:id="@+id/glide_btn9"
+            android:layout_below="@id/glide_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="指定图片形状裁剪"/>
+
+        <Button
+            android:id="@+id/glide_btn10"
+            android:layout_below="@id/glide_btn5"
+            android:layout_toRightOf="@id/glide_btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="油画"/>
+
+        <Button
+            android:id="@+id/glide_btn11"
+            android:layout_below="@id/glide_btn5"
+            android:layout_toRightOf="@id/glide_btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="褪色"/>
+
+        <Button
+            android:id="@+id/glide_btn12"
+            android:layout_below="@id/glide_btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对比度"/>
+
+        <Button
+            android:id="@+id/glide_btn13"
+            android:layout_below="@id/glide_btn9"
+            android:layout_toRightOf="@id/glide_btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底片"/>
+
+        <Button
+            android:id="@+id/glide_btn14"
+            android:layout_below="@id/glide_btn9"
+            android:layout_toRightOf="@id/glide_btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="马赛克"/>
+
+        <Button
+            android:id="@+id/glide_btn15"
+            android:layout_below="@id/glide_btn9"
+            android:layout_toRightOf="@id/glide_btn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="素描"/>
+
+        <Button
+            android:id="@+id/glide_btn16"
+            android:layout_below="@id/glide_btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="漩涡"/>
+
+        <Button
+            android:id="@+id/glide_btn17"
+            android:layout_below="@id/glide_btn13"
+            android:layout_toRightOf="@id/glide_btn16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高亮"/>
+
+        <Button
+            android:id="@+id/glide_btn18"
+            android:layout_below="@id/glide_btn13"
+            android:layout_toRightOf="@id/glide_btn17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="滤波"/>
+
+        <Button
+            android:id="@+id/glide_btn19"
+            android:layout_below="@id/glide_btn13"
+            android:layout_toRightOf="@id/glide_btn18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暗黑一圈"/>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/glide_img1"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/cover"/>
+
+</LinearLayout>

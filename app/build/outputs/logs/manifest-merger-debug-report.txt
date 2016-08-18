@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:2:1-116:12
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:2:1-119:12
 	package
 		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidMa
 	android:name
 		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:15:22-81
 application
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:17:5-114:19
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:17:5-117:19
 MERGED from [com.android.support:appcompat-v7:24.0.0] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.0.0] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.0.0] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
@@ -223,27 +223,33 @@ ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidMa
 		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:99:13-42
 	android:name
 		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:98:19-48
+activity#com.example.warmfire.asynctasktest.GlideActivity
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:101:9-103:20
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:102:13-42
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:101:19-48
 service#com.example.warmfire.asynctasktest.HelloService
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:104:9-49
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:107:9-49
 	android:name
-		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:104:18-46
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:107:18-46
 receiver#com.example.warmfire.asynctasktest.MyBroadCast
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:105:9-109:20
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:108:9-112:20
 	android:name
-		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:105:19-46
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:108:19-46
 intent-filter#com.example.warmfire.asynctasktest.MyBroadCast
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:106:13-108:29
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:109:13-111:29
 action#com.example.warmfire.asynctasktest.MyBroadCast
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:107:17-96
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:110:17-96
 	android:name
-		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:107:25-86
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:110:25-86
 meta-data#com.google.android.gms.version
-ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:111:9-113:69
+ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:114:9-116:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:113:13-66
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:116:13-66
 	android:name
-		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:112:13-58
+		ADDED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml:115:13-58
 uses-sdk
 INJECTED from D:\Android\AndroidStudioProjects\AsyncTaskTest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.0.0] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78
@@ -259,6 +265,7 @@ MERGED from [com.android.support:support-v4:24.0.0] D:\Android\AndroidStudioProj
 MERGED from [com.github.lecho:hellocharts-library:1.5.8] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.github.lecho\hellocharts-library\1.5.8\AndroidManifest.xml:7:5-9:41
 MERGED from [AsyncTaskTest:library:unspecified] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\AsyncTaskTest\library\unspecified\AndroidManifest.xml:7:5-43
 MERGED from [AsyncTaskTest:autoscroll:unspecified] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\AsyncTaskTest\autoscroll\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\jp.wasabeef\glide-transformations\2.0.1\AndroidManifest.xml:8:5-10:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.0.0] D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

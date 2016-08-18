@@ -35,6 +35,20 @@
                 android:layout_margin="10dp"
                 android:background="#cccccc"/>
 
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/chart_column"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="#cccccc"/>
+
+            <lecho.lib.hellocharts.view.ComboLineColumnChartView
+                android:id="@+id/chart_comboline"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="#cccccc"/>
+
         </LinearLayout>
 
     </ScrollView>

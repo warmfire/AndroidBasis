@@ -98,6 +98,9 @@
         <activity android:name=".ChartActivity"
             android:label="ChartActivity">
         </activity>
+        <activity android:name=".GlideActivity"
+            android:label="GlideActivity">
+        </activity>
 
 
 

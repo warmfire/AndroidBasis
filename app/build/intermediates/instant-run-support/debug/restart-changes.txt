@@ -1,0 +1,1 @@
+CHANGED,D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\warmfire\asynctasktest\GlideActivity$2.class

@@ -128,6 +128,10 @@
             android:name="com.example.warmfire.asynctasktest.ChartActivity"
             android:label="ChartActivity" >
         </activity>
+        <activity
+            android:name="com.example.warmfire.asynctasktest.GlideActivity"
+            android:label="GlideActivity" >
+        </activity>
 
         <service android:name="com.example.warmfire.asynctasktest.HelloService" />
 
