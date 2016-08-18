@@ -136,6 +136,10 @@
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\my123.jpg",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\drawable-xhdpi\\my123.jpg"
+    },
+    {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
     },

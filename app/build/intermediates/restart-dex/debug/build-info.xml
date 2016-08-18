@@ -4,33 +4,34 @@
     api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="92580740626237"
-    token="7145182783900850978" >
+    timestamp="117051864616051"
+    token="7145182783900850978"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="483" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="525" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="9" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="87682282786903" >
+    <build timestamp="109648840795935" >
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="91914648474867"
+        timestamp="115592740042813"
         verifier="R_CLASS_CHANGE" >
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
@@ -39,22 +40,24 @@
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="92043780145113" >
+    <build timestamp="115646455950903" >
+        <artifact
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="116950502690342"
+        verifier="CLASS_ADDED" >
         <artifact
             location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="92492575413064"
+        timestamp="117051864616051"
         verifier="COMPATIBLE" >
         <artifact
-            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\builds\debug\92492575413064\classes.dex"
+            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\reload-dex\debug\classes.dex"
             type="RELOAD_DEX" />
-    </build>
-    <build timestamp="92580740626237" >
-        <artifact
-            location="D:\Android\AndroidStudioProjects\AsyncTaskTest\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

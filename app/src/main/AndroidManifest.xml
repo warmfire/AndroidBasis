@@ -103,7 +103,6 @@
         </activity>
 
 
-
         <service android:name=".HelloService" />
         <receiver android:name=".MyBroadCast">
             <intent-filter>
