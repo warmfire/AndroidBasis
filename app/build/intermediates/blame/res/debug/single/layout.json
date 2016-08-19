@@ -4,12 +4,12 @@
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tablelayout.xml",
-        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\layout\\activity_tablelayout.xml"
-    },
-    {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\servlet_list_item.xml",
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\layout\\servlet_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tablelayout.xml",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\layout\\activity_tablelayout.xml"
     },
     {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_zuhe.xml",
@@ -20,8 +20,16 @@
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anotation.xml",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\layout\\activity_anotation.xml"
+    },
+    {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_volley.xml",
+        "source": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\src\\main\\res\\layout\\activity_volley.xml"
     },
     {
         "merged": "D:\\Android\\AndroidStudioProjects\\AsyncTaskTest\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

@@ -152,6 +152,22 @@
                 android:textAllCaps="false"
                 android:text="图片处理"/>
 
+            <Button
+                android:id="@+id/main_anotation"
+                android:layout_below="@id/main_chart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="依赖注入"/>
+
+            <Button
+                android:id="@+id/main_volley"
+                android:layout_below="@id/main_anotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Volley"/>
+
         </RelativeLayout>
 
     </ScrollView>

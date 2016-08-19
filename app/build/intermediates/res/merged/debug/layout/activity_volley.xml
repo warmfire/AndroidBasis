@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/volley_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/volley_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示图片"/>
+
+    <Button
+        android:id="@+id/volley_imgload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="显示ImageLoader图片"/>
+
+    <ImageView
+        android:id="@+id/volley_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

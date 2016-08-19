@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
             main_download, main_zuhe,
             main_pulltorefresh, main_lunbotu,
             main_vedio, main_vedio2,
-            main_chart, main_glide;
+            main_chart, main_glide,
+            main_anotation, main_volley;
 
 
     @Override
@@ -64,10 +65,17 @@ public class MainActivity extends AppCompatActivity {
         main_vedio2 = (Button) findViewById(R.id.main_vedio2);
         main_chart = (Button) findViewById(R.id.main_chart);
         main_glide = (Button) findViewById(R.id.main_glide);
+        main_anotation = (Button) findViewById(R.id.main_anotation);
+        main_volley = (Button) findViewById(R.id.main_volley);
     }
 
     public void setClick(){
-
+        main_anotation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent().setClass(MainActivity.this, AnotationActivity_.class), 0);
+            }
+        });
         main_servlet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -168,6 +176,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivityForResult(new Intent().setClass(MainActivity.this, GlideActivity.class), 0);
+            }
+        });
+        main_volley.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivityForResult(new Intent().setClass(MainActivity.this, VolleyActivity.class), 0);
             }
         });
     }

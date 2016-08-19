@@ -101,6 +101,12 @@
         <activity android:name=".GlideActivity"
             android:label="GlideActivity">
         </activity>
+        <activity android:name=".AnotationActivity_"
+            android:label="AnotationActivity_">
+        </activity>
+        <activity android:name=".VolleyActivity"
+            android:label="VolleyActivity">
+        </activity>
 
 
         <service android:name=".HelloService" />

@@ -33,10 +33,25 @@
         android:layout_height="wrap_content"
         android:text="Back"/>
 
+    <Button
+        android:id="@+id/handler_start"
+        android:layout_toRightOf="@id/handler_back"
+        android:layout_below="@id/handler_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"/>
+
     <ImageView
         android:id="@+id/handler_img"
         android:layout_below="@id/handler_show"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/handler_progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_below="@id/handler_img"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 </RelativeLayout>
